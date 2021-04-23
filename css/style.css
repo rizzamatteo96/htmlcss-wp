@@ -1,8 +1,13 @@
-/* proprietà generali */
+/* --- proprietà generali --- */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .prime-container{
@@ -10,12 +15,41 @@
     margin: 10px auto;
 }
 
-/* jumbotron */
+/* --- header --- */
+.header-top img{
+    width: 15%;
+    padding-right: 20px;
+    border-right: 2px solid #e8e8e8;
+}
+
+header nav{
+    height: 100px;
+    line-height: 100px;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #a2a2a2;
+    margin-right: 10px;
+}
+
+
+/* --- jumbotron --- */
 .jumbotron{
     margin: 10px 0;
 }
 
-/* main container */
+
+/* --- main container --- */
 .clearfix::after{
     content: '';
     display: table;
@@ -39,39 +73,40 @@
     padding: 10px 0;
 }
 
-/* footer */
+
+/* --- footer --- */
 footer{
     margin-top: 5px;
 }
 
 
 
-/* only for debug */
-header.debug{
+/* -------- only for debug - TO BE DELETED ---------*/
+/* .debug header{
     height: 50px;
     background-color: #e579e6;
 }
 
-.jumbotron.debug{
+.debug .jumbotron{
     background-color: #e1d67a;
     height: 350px;
 }
 
-.main-container.debug{
+.debug .main-container{
     background-color: #0088fc;
 }
 
-.top-cont{
+.debug .top-cont{
     background-color: #abcfe7;
     height: 50px;
 }
 
-.float-l{
+.debug .float-l{
     height: 400px;
     background-color: #abcfe7;
 }
 
-footer.debug{
+.debug footer{
     background-color: #8801fe;
     height: 40px;
-}
+} */
