@@ -11,7 +11,7 @@ body{
 }
 
 .prime-container{
-    width: 90%;
+    width: 80%;
     margin: 10px auto;
 }
 
@@ -46,6 +46,28 @@ header nav ul li a{
 /* --- jumbotron --- */
 .jumbotron{
     margin: 10px 0;
+    background-image: url(../img/banner.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.jumbotron .jumbo-content{
+    color: white;
+    padding: 300px 0 0 30px;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.jumbotron .jumbo-content .jumbo-text{
+    width: 50%;
+    font-weight: 300;
+}
+
+#jumbo-title{
+    font-size: 30px;
 }
 
 
