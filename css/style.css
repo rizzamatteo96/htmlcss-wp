@@ -1,0 +1,77 @@
+/* proprietà generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.prime-container{
+    width: 90%;
+    margin: 10px auto;
+}
+
+/* jumbotron */
+.jumbotron{
+    margin: 10px 0;
+}
+
+/* main container */
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.float-l{
+    float: left;
+}
+
+.left, .right{
+    width: 20%;
+}
+
+.center{
+    width: calc(60% - 20px);
+    margin: 0 10px;
+}
+
+.content{
+    padding: 10px 0;
+}
+
+/* footer */
+footer{
+    margin-top: 5px;
+}
+
+
+
+/* only for debug */
+header.debug{
+    height: 50px;
+    background-color: #e579e6;
+}
+
+.jumbotron.debug{
+    background-color: #e1d67a;
+    height: 350px;
+}
+
+.main-container.debug{
+    background-color: #0088fc;
+}
+
+.top-cont{
+    background-color: #abcfe7;
+    height: 50px;
+}
+
+.float-l{
+    height: 400px;
+    background-color: #abcfe7;
+}
+
+footer.debug{
+    background-color: #8801fe;
+    height: 40px;
+}
