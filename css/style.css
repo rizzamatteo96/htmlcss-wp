@@ -15,6 +15,13 @@ body{
     margin: 10px auto;
 }
 
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
 /* --- header --- */
 .header-top img{
     width: 15%;
@@ -45,7 +52,7 @@ header nav ul li a{
 
 /* --- jumbotron --- */
 .jumbotron{
-    margin: 10px 0;
+    margin: 10px 0 30px 0;
     background-image: url(../img/banner.jpg);
     height: 500px;
     background-size: cover;
@@ -72,10 +79,10 @@ header nav ul li a{
 
 
 /* --- main container --- */
-.clearfix::after{
-    content: '';
-    display: table;
-    clear: both;
+
+.top-cont span{
+    color: #a2a2a2;
+    font-weight: 300;
 }
 
 .float-l{
